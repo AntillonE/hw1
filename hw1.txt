@@ -32,4 +32,3 @@ git@github.com:usc-csci104-fall2017/hw-eantillo.git
 
 Probelm 4:
 1) I got 15. 2+2+3+3+5. It is the sum of all the values given from a binary tree of that value. So and input of 15 would give an answer of 8, the sum of 3 and 5.
-2) 

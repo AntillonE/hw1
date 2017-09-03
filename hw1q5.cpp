@@ -20,8 +20,6 @@ string reverseString(string text, int start, int end)
   	return reverseString(text, ++start, --end);
   }
 }
-// Make sure to check the seg fault
-
 int main (int argc, char* argv[])
 {
   if(argc < 2){
@@ -40,9 +38,8 @@ int main (int argc, char* argv[])
   	return 0;
   }
 
-  //cerr << "Opened!" << endl;
   fileIn >> amountLetters;
-  //cerr << amountLetters << endl;
+  
   while(getline(fileIn, text)){}
   cerr << text << endl;
 

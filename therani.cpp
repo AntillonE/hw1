@@ -203,7 +203,6 @@ int main(int argc, char* argv[])
 	  	}
 	  	output << history[x][n] << endl;
 
-	  	cout << "Experiments are: " << history[x][n] << endl;
 	  }
 	  else {
 	    if(startFlag == 0)
